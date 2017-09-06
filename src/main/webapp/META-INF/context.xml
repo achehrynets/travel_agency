@@ -1,0 +1,13 @@
+<Context>
+    <Resource name="jdbc/travelagency"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="100"
+              maxIdle="30" maxWait="10000"
+              username="jo1nsaint"
+              password="werd123312"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/travelagency"
+              defaultTransactionIsolation="READ_COMMITTED"
+              defaultAutoCommit="false" />
+</Context>
