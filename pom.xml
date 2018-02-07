@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ua.nure.chegrinets.SummaryTask4</groupId>
-    <artifactId>ua.nure.SummaryTask4</artifactId>
+    <groupId>ua.nure.chegrinets.TravelAgency</groupId>
+    <artifactId>ua.nure.TravelAgency</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>SummaryTask4</name>
+    <name>TravelAgency</name>
 
     <dependencies>
         <dependency>
