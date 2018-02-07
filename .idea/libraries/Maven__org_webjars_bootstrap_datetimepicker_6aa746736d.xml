@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.webjars:bootstrap-datetimepicker:6aa746736d">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap-datetimepicker/6aa746736d/bootstrap-datetimepicker-6aa746736d.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap-datetimepicker/6aa746736d/bootstrap-datetimepicker-6aa746736d-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap-datetimepicker/6aa746736d/bootstrap-datetimepicker-6aa746736d-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

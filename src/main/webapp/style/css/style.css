@@ -1,0 +1,8 @@
+.wizard-step h3 {
+    width: 600px;
+    margin-left: 350px;
+}
+
+.wizard-step input {
+    width: 350px;
+}

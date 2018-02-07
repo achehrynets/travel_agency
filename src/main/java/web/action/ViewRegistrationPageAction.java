@@ -10,6 +10,6 @@ public class ViewRegistrationPageAction implements Action {
 
     @Override
     public String[] execute(HttpServletRequest req, HttpServletResponse resp) {
-        return new String[] {AppConst.FORWARD, Path.REGISTRATION_PAGE};
+        return new String[] {AppConst.FORWARD, Path.PAGE_REGISTRATION};
     }
 }

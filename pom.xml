@@ -11,11 +11,15 @@
     <name>SummaryTask4</name>
 
     <dependencies>
-
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4</version>
+        </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
-            <version>3.3.4</version>
+            <version>3.3.7</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -46,6 +50,16 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>com.liferay</groupId>
+            <artifactId>org.apache.commons.fileupload</artifactId>
+            <version>1.2.2.LIFERAY-PATCHED-1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap-datetimepicker</artifactId>
+            <version>LATEST</version>
         </dependency>
     </dependencies>
 

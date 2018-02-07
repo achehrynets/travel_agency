@@ -26,24 +26,29 @@
                    type="email" name="email" value="${requestScope.email}" required>
         </div>
         <div class="form-group">
-            <label for="name" class="col-sm-4 control-label">Name</label>
-            <input style="width: 350px" id="name" placeholder="Name"
-                   type="text" name="name" value="${requestScope.name}" required>
-        </div>
-        <div class="form-group">
-            <label for="middle_name" class="col-sm-4 control-label">Middle name</label>
-            <input style="width: 350px" id="middle_name" placeholder="Middle name"
-                   type="text" name="middle_name" value="${requestScope.middle_name}" required>
-        </div>
-        <div class="form-group">
             <label for="surname" class="col-sm-4 control-label">Surname</label>
             <input style="width: 350px" id="surname" placeholder="Surname"
                    type="text" name="surname" value="${requestScope.surname}" required>
         </div>
         <div class="form-group">
-            <label for="passport_id" class="col-sm-4 control-label">Passport number</label>
-            <input style="width: 350px" id="passport_id" placeholder="Passport number"
-                   type="text" name="passport_id" value="${requestScope.passport_id}" required>
+            <label for="middleName" class="col-sm-4 control-label">Middle name</label>
+            <input style="width: 350px" id="middleName" placeholder="Middle name"
+                   type="text" name="middle_name" value="${requestScope.middleName}" required>
+        </div>
+        <div class="form-group">
+            <label for="name" class="col-sm-4 control-label">Name</label>
+            <input style="width: 350px" id="name" placeholder="Name"
+                   type="text" name="name" value="${requestScope.name}" required>
+        </div>
+        <div class="form-group">
+            <label for="passportId" class="col-sm-4 control-label">Passport id</label>
+            <input style="width: 350px" id="passportId" placeholder="Passport id"
+                   type="text" name="passport_id" value="${requestScope.passportId}" required>
+        </div>
+        <div class="form-group">
+            <label for="internationalPassportId" class="col-sm-4 control-label">International passport id</label>
+            <input style="width: 350px" id="internationalPassportId" placeholder="International passport id"
+                   type="text" name="international_passport_id" value="${requestScope.passportId}" required>
         </div>
         <button style="margin-left: 450px" class="btn btn-success" type="submit">Create an account</button>
     </form>

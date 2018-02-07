@@ -1,17 +1,20 @@
 package db.entity;
 
-public class User extends Entity{
+import java.util.Comparator;
+
+public class User extends Entity implements Comparator<User>{
 
     private String login;
     private String password;
     private String email;
     private String surname;
     private String name;
+    private String phone;
     private String middleName;
     private String passportId;
     private String internationalPassportId;
     private boolean blocked;
-    private int roleId;
+    private Integer roleId;
 
     public String getLogin() {
         return login;
@@ -69,6 +72,14 @@ public class User extends Entity{
         this.passportId = passportId;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     public String getInternationalPassportId() {
         return internationalPassportId;
     }
@@ -93,14 +104,18 @@ public class User extends Entity{
         this.roleId = roleId;
     }
 
-    @Override
+    public int compare(User o1, User o2) {
+        return Boolean.compare(o1.isBlocked(), o2.isBlocked());
+    }
+
     public String toString() {
         return "User{" +
-                ", login='" + login + '\'' +
+                "login='" + login + '\'' +
                 ", password='" + password + '\'' +
                 ", email='" + email + '\'' +
                 ", surname='" + surname + '\'' +
                 ", name='" + name + '\'' +
+                ", phone='" + phone + '\'' +
                 ", middleName='" + middleName + '\'' +
                 ", passportId='" + passportId + '\'' +
                 ", internationalPassportId='" + internationalPassportId + '\'' +
